@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#080812"/>
+  <text x="40" y="45" font-family="monospace" font-size="18" fill="#a855f7" font-weight="bold">Breast Cancer Detection</text>
+  <text x="40" y="65" font-family="monospace" font-size="10" fill="#ffffff40">Python · Scikit-learn · 96–98% Accuracy</text>
+  <!-- Confusion matrix -->
+  <rect x="40" y="90" width="200" height="200" rx="10" fill="#0d1020"/>
+  <text x="140" y="114" font-family="monospace" font-size="10" fill="#ffffff60" text-anchor="middle">Confusion Matrix</text>
+  <rect x="60" y="125" width="75" height="70" rx="4" fill="#22c55e30" stroke="#22c55e40"/>
+  <text x="97" y="165" font-family="monospace" font-size="16" fill="#22c55e" text-anchor="middle" font-weight="bold">212</text>
+  <text x="97" y="182" font-family="monospace" font-size="9" fill="#22c55e" text-anchor="middle">TN</text>
+  <rect x="145" y="125" width="75" height="70" rx="4" fill="#ef444430" stroke="#ef444440"/>
+  <text x="182" y="165" font-family="monospace" font-size="16" fill="#ef4444" text-anchor="middle" font-weight="bold">4</text>
+  <text x="182" y="182" font-family="monospace" font-size="9" fill="#ef4444" text-anchor="middle">FP</text>
+  <rect x="60" y="205" width="75" height="70" rx="4" fill="#ef444430" stroke="#ef444440"/>
+  <text x="97" y="245" font-family="monospace" font-size="16" fill="#ef4444" text-anchor="middle" font-weight="bold">3</text>
+  <text x="97" y="262" font-family="monospace" font-size="9" fill="#ef4444" text-anchor="middle">FN</text>
+  <rect x="145" y="205" width="75" height="70" rx="4" fill="#22c55e30" stroke="#22c55e40"/>
+  <text x="182" y="245" font-family="monospace" font-size="16" fill="#22c55e" text-anchor="middle" font-weight="bold">138</text>
+  <text x="182" y="262" font-family="monospace" font-size="9" fill="#22c55e" text-anchor="middle">TP</text>
+  <!-- ROC curve area -->
+  <rect x="260" y="90" width="240" height="200" rx="10" fill="#0d1020"/>
+  <text x="380" y="114" font-family="monospace" font-size="10" fill="#ffffff60" text-anchor="middle">ROC Curve</text>
+  <line x1="280" y1="272" x2="480" y2="272" stroke="#ffffff20" stroke-width="1"/>
+  <line x1="280" y1="272" x2="280" y2="125" stroke="#ffffff20" stroke-width="1"/>
+  <line x1="280" y1="272" x2="480" y2="125" stroke="#ffffff15" stroke-width="1" stroke-dasharray="4,4"/>
+  <path d="M280,272 Q310,240 330,200 Q360,150 400,135 Q440,125 480,123" fill="none" stroke="#a855f7" stroke-width="2.5"/>
+  <text x="440" y="148" font-family="monospace" font-size="10" fill="#a855f7">AUC=0.99</text>
+  <!-- Model comparison -->
+  <rect x="520" y="90" width="240" height="200" rx="10" fill="#0d1020"/>
+  <text x="640" y="114" font-family="monospace" font-size="10" fill="#ffffff60" text-anchor="middle">Model Accuracy</text>
+  <text x="540" y="150" font-family="monospace" font-size="10" fill="#ffffff70">SVM</text>
+  <rect x="580" y="138" width="0" height="14" rx="3" fill="#a855f760"/>
+  <rect x="580" y="138" width="150" height="14" rx="3" fill="#a855f7"/>
+  <text x="736" y="150" font-family="monospace" font-size="10" fill="#a855f7">98%</text>
+  <text x="540" y="182" font-family="monospace" font-size="10" fill="#ffffff70">KNN</text>
+  <rect x="580" y="170" width="140" height="14" rx="3" fill="#7c3aed"/>
+  <text x="726" y="182" font-family="monospace" font-size="10" fill="#7c3aed">96%</text>
+  <text x="540" y="214" font-family="monospace" font-size="10" fill="#ffffff70">D-Tree</text>
+  <rect x="580" y="202" width="125" height="14" rx="3" fill="#6d28d9"/>
+  <text x="711" y="214" font-family="monospace" font-size="10" fill="#6d28d9">94%</text>
+  <text x="540" y="246" font-family="monospace" font-size="10" fill="#ffffff70">Logistic</text>
+  <rect x="580" y="234" width="120" height="14" rx="3" fill="#5b21b6"/>
+  <text x="706" y="246" font-family="monospace" font-size="10" fill="#5b21b6">92%</text>
+  <!-- Summary stat -->
+  <rect x="40" y="314" width="720" height="110" rx="14" fill="#0d1020"/>
+  <text x="400" y="344" font-family="monospace" font-size="13" fill="#a855f7" text-anchor="middle" font-weight="bold">Best Model: SVM with StandardScaler</text>
+  <text x="400" y="368" font-family="monospace" font-size="11" fill="#ffffff70" text-anchor="middle">Accuracy: 98% · Precision: 97.8% · Recall: 97.9% · F1: 97.9%</text>
+  <text x="400" y="392" font-family="monospace" font-size="10" fill="#ffffff40" text-anchor="middle">Preprocessing · Cross-Validation · 569 samples · Wisconsin Dataset</text>
+</svg>

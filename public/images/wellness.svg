@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#080d18"/>
+  <!-- Header bar -->
+  <rect x="0" y="0" width="800" height="55" fill="#0d1528"/>
+  <text x="30" y="34" font-family="monospace" font-size="16" fill="#a855f7" font-weight="bold">NEU Wellness Connect</text>
+  <rect x="620" y="14" width="80" height="28" rx="6" fill="#7c3aed30"/>
+  <text x="660" y="32" font-family="monospace" font-size="10" fill="#a855f7" text-anchor="middle">Admin</text>
+  <circle cx="740" cy="28" r="14" fill="#7c3aed40" stroke="#a855f7" stroke-width="1"/>
+  <text x="740" y="33" font-family="monospace" font-size="11" fill="#a855f7" text-anchor="middle">NM</text>
+  <!-- Cards -->
+  <rect x="30" y="75" width="170" height="90" rx="10" fill="#0d1528"/>
+  <text x="115" y="100" font-family="monospace" font-size="10" fill="#ffffff60" text-anchor="middle">APPOINTMENTS</text>
+  <text x="115" y="130" font-family="monospace" font-size="30" fill="#a855f7" text-anchor="middle" font-weight="bold">24</text>
+  <text x="115" y="152" font-family="monospace" font-size="9" fill="#22c55e" text-anchor="middle">+3 today</text>
+  <rect x="215" y="75" width="170" height="90" rx="10" fill="#0d1528"/>
+  <text x="300" y="100" font-family="monospace" font-size="10" fill="#ffffff60" text-anchor="middle">PATIENTS</text>
+  <text x="300" y="130" font-family="monospace" font-size="30" fill="#a855f7" text-anchor="middle" font-weight="bold">148</text>
+  <text x="300" y="152" font-family="monospace" font-size="9" fill="#22c55e" text-anchor="middle">Active</text>
+  <rect x="400" y="75" width="170" height="90" rx="10" fill="#0d1528"/>
+  <text x="485" y="100" font-family="monospace" font-size="10" fill="#ffffff60" text-anchor="middle">CLAIMS</text>
+  <text x="485" y="130" font-family="monospace" font-size="30" fill="#f59e0b" text-anchor="middle" font-weight="bold">7</text>
+  <text x="485" y="152" font-family="monospace" font-size="9" fill="#f59e0b" text-anchor="middle">Pending review</text>
+  <rect x="585" y="75" width="185" height="90" rx="10" fill="#0d1528"/>
+  <text x="677" y="100" font-family="monospace" font-size="10" fill="#ffffff60" text-anchor="middle">ORGANIZATIONS</text>
+  <text x="677" y="130" font-family="monospace" font-size="30" fill="#a855f7" text-anchor="middle" font-weight="bold">10</text>
+  <text x="677" y="152" font-family="monospace" font-size="9" fill="#22c55e" text-anchor="middle">4 Enterprises</text>
+  <!-- Appointment list -->
+  <rect x="30" y="185" width="380" height="240" rx="10" fill="#0d1528"/>
+  <text x="50" y="210" font-family="monospace" font-size="11" fill="#ffffff80">Upcoming Appointments</text>
+  <line x1="30" y1="220" x2="410" y2="220" stroke="#ffffff10" stroke-width="1"/>
+  <circle cx="55" cy="248" r="12" fill="#7c3aed30"/>
+  <text x="55" y="253" font-family="monospace" font-size="9" fill="#a855f7" text-anchor="middle">JS</text>
+  <text x="78" y="244" font-family="monospace" font-size="10" fill="#ffffffcc">John S. — Counseling</text>
+  <text x="78" y="258" font-family="monospace" font-size="9" fill="#ffffff50">Today 2:00 PM</text>
+  <circle cx="55" cy="290" r="12" fill="#7c3aed30"/>
+  <text x="55" y="295" font-family="monospace" font-size="9" fill="#a855f7" text-anchor="middle">AM</text>
+  <text x="78" y="286" font-family="monospace" font-size="10" fill="#ffffffcc">Amy M. — Insurance Verify</text>
+  <text x="78" y="300" font-family="monospace" font-size="9" fill="#ffffff50">Today 3:30 PM</text>
+  <circle cx="55" cy="332" r="12" fill="#7c3aed30"/>
+  <text x="55" y="337" font-family="monospace" font-size="9" fill="#a855f7" text-anchor="middle">RK</text>
+  <text x="78" y="328" font-family="monospace" font-size="10" fill="#ffffffcc">Raj K. — Mental Health</text>
+  <text x="78" y="342" font-family="monospace" font-size="9" fill="#ffffff50">Tomorrow 10:00 AM</text>
+  <!-- Module badges -->
+  <rect x="430" y="185" width="340" height="240" rx="10" fill="#0d1528"/>
+  <text x="450" y="210" font-family="monospace" font-size="11" fill="#ffffff80">Role Modules (12)</text>
+  <rect x="450" y="225" width="90" height="28" rx="6" fill="#7c3aed25" stroke="#7c3aed40"/>
+  <text x="495" y="244" font-family="monospace" font-size="9" fill="#a855f7" text-anchor="middle">Insurance</text>
+  <rect x="550" y="225" width="90" height="28" rx="6" fill="#7c3aed25" stroke="#7c3aed40"/>
+  <text x="595" y="244" font-family="monospace" font-size="9" fill="#a855f7" text-anchor="middle">Mental Health</text>
+  <rect x="650" y="225" width="90" height="28" rx="6" fill="#7c3aed25" stroke="#7c3aed40"/>
+  <text x="695" y="244" font-family="monospace" font-size="9" fill="#a855f7" text-anchor="middle">Billing</text>
+  <rect x="450" y="263" width="90" height="28" rx="6" fill="#7c3aed25" stroke="#7c3aed40"/>
+  <text x="495" y="282" font-family="monospace" font-size="9" fill="#a855f7" text-anchor="middle">Counseling</text>
+  <rect x="550" y="263" width="90" height="28" rx="6" fill="#7c3aed25" stroke="#7c3aed40"/>
+  <text x="595" y="282" font-family="monospace" font-size="9" fill="#a855f7" text-anchor="middle">Scheduling</text>
+  <rect x="650" y="263" width="90" height="28" rx="6" fill="#7c3aed25" stroke="#7c3aed40"/>
+  <text x="695" y="282" font-family="monospace" font-size="9" fill="#a855f7" text-anchor="middle">Admin</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#060d12"/>
+  <!-- Left panel -->
+  <rect x="0" y="0" width="200" height="450" fill="#0a1520"/>
+  <text x="100" y="38" font-family="monospace" font-size="14" fill="#a855f7" text-anchor="middle" font-weight="bold">FitTrack Pro</text>
+  <!-- Ring chart sketch -->
+  <circle cx="100" cy="140" r="55" fill="none" stroke="#ffffff10" stroke-width="12"/>
+  <circle cx="100" cy="140" r="55" fill="none" stroke="#a855f7" stroke-width="12" stroke-dasharray="276 69" stroke-dashoffset="69" stroke-linecap="round"/>
+  <text x="100" y="136" font-family="monospace" font-size="11" fill="#ffffff80" text-anchor="middle">Calories</text>
+  <text x="100" y="152" font-family="monospace" font-size="16" fill="#a855f7" text-anchor="middle" font-weight="bold">1840</text>
+  <text x="20" y="220" font-family="monospace" font-size="10" fill="#ffffff60">Today's Workouts</text>
+  <rect x="20" y="232" width="160" height="36" rx="8" fill="#7c3aed20"/>
+  <text x="100" y="255" font-family="monospace" font-size="10" fill="#a855f7" text-anchor="middle">Morning Run — 5.2km</text>
+  <rect x="20" y="278" width="160" height="36" rx="8" fill="#7c3aed10"/>
+  <text x="100" y="301" font-family="monospace" font-size="10" fill="#ffffff80" text-anchor="middle">Strength — 45min</text>
+  <!-- Right main area -->
+  <rect x="215" y="20" width="560" height="110" rx="12" fill="#0a1520"/>
+  <text x="240" y="45" font-family="monospace" font-size="11" fill="#ffffff60">Weekly Activity</text>
+  <!-- Activity bars -->
+  <rect x="250" y="70" width="28" height="40" rx="4" fill="#7c3aed60"/>
+  <rect x="290" y="55" width="28" height="55" rx="4" fill="#7c3aed80"/>
+  <rect x="330" y="80" width="28" height="30" rx="4" fill="#7c3aed60"/>
+  <rect x="370" y="48" width="28" height="62" rx="4" fill="#a855f7"/>
+  <rect x="410" y="65" width="28" height="45" rx="4" fill="#7c3aed80"/>
+  <rect x="450" y="52" width="28" height="58" rx="4" fill="#a855f7"/>
+  <rect x="490" y="44" width="28" height="66" rx="4" fill="#a855f7"/>
+  <text x="264" y="122" font-family="monospace" font-size="9" fill="#ffffff40" text-anchor="middle">M</text>
+  <text x="304" y="122" font-family="monospace" font-size="9" fill="#ffffff40" text-anchor="middle">T</text>
+  <text x="344" y="122" font-family="monospace" font-size="9" fill="#ffffff40" text-anchor="middle">W</text>
+  <text x="384" y="122" font-family="monospace" font-size="9" fill="#ffffff40" text-anchor="middle">T</text>
+  <text x="424" y="122" font-family="monospace" font-size="9" fill="#ffffff40" text-anchor="middle">F</text>
+  <text x="464" y="122" font-family="monospace" font-size="9" fill="#ffffff40" text-anchor="middle">S</text>
+  <text x="504" y="122" font-family="monospace" font-size="9" fill="#ffffff40" text-anchor="middle">S</text>
+  <!-- Stats row -->
+  <rect x="215" y="148" width="130" height="80" rx="10" fill="#0a1520"/>
+  <text x="280" y="172" font-family="monospace" font-size="10" fill="#ffffff50" text-anchor="middle">STEPS</text>
+  <text x="280" y="204" font-family="monospace" font-size="22" fill="#22c55e" text-anchor="middle" font-weight="bold">9,842</text>
+  <rect x="358" y="148" width="130" height="80" rx="10" fill="#0a1520"/>
+  <text x="423" y="172" font-family="monospace" font-size="10" fill="#ffffff50" text-anchor="middle">ACTIVE MIN</text>
+  <text x="423" y="204" font-family="monospace" font-size="22" fill="#a855f7" text-anchor="middle" font-weight="bold">78</text>
+  <rect x="501" y="148" width="130" height="80" rx="10" fill="#0a1520"/>
+  <text x="566" y="172" font-family="monospace" font-size="10" fill="#ffffff50" text-anchor="middle">SLEEP</text>
+  <text x="566" y="204" font-family="monospace" font-size="22" fill="#60a5fa" text-anchor="middle" font-weight="bold">7.4h</text>
+  <rect x="644" y="148" width="130" height="80" rx="10" fill="#0a1520"/>
+  <text x="709" y="172" font-family="monospace" font-size="10" fill="#ffffff50" text-anchor="middle">STREAK</text>
+  <text x="709" y="204" font-family="monospace" font-size="22" fill="#f59e0b" text-anchor="middle" font-weight="bold">12d</text>
+  <!-- Goals -->
+  <rect x="215" y="248" width="270" height="180" rx="12" fill="#0a1520"/>
+  <text x="235" y="274" font-family="monospace" font-size="11" fill="#ffffff80">Goals Progress</text>
+  <text x="235" y="305" font-family="monospace" font-size="10" fill="#ffffff60">Daily Steps</text>
+  <rect x="235" y="312" width="230" height="10" rx="5" fill="#ffffff10"/>
+  <rect x="235" y="312" width="184" height="10" rx="5" fill="#a855f7"/>
+  <text x="235" y="345" font-family="monospace" font-size="10" fill="#ffffff60">Calories</text>
+  <rect x="235" y="352" width="230" height="10" rx="5" fill="#ffffff10"/>
+  <rect x="235" y="352" width="150" height="10" rx="5" fill="#22c55e"/>
+  <text x="235" y="385" font-family="monospace" font-size="10" fill="#ffffff60">Water (ml)</text>
+  <rect x="235" y="392" width="230" height="10" rx="5" fill="#ffffff10"/>
+  <rect x="235" y="392" width="100" height="10" rx="5" fill="#60a5fa"/>
+  <!-- Subscription badge -->
+  <rect x="498" y="248" width="276" height="80" rx="10" fill="#7c3aed15" stroke="#7c3aed30"/>
+  <text x="636" y="276" font-family="monospace" font-size="11" fill="#a855f7" text-anchor="middle">Stripe Premium</text>
+  <text x="636" y="298" font-family="monospace" font-size="22" fill="#ffffff" text-anchor="middle" font-weight="bold">$9.99/mo</text>
+  <text x="636" y="318" font-family="monospace" font-size="9" fill="#22c55e" text-anchor="middle">Active Subscription</text>
+</svg>
