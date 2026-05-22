@@ -136,10 +136,9 @@ function CelestialAvatar() {
       {orbits.map((o, i) => (
         <div key={i} style={{ position: 'absolute', width: o.r * 2, height: o.r * 2, borderRadius: '50%', border: '1px solid rgba(139,92,246,.12)', top: '50%', left: '50%', transform: 'translate(-50%,-50%)' }}>
           <motion.div
-            style={{ position: 'absolute', width: o.size, height: o.size, borderRadius: '50%', background: o.color, boxShadow: `0 0 ${o.size * 2}px ${o.color}`, top: 0, left: '50%', translateX: '-50%', translateY: '-50%' }}
             animate={{ rotate: 360 }}
+            style={{ position: 'absolute', width: o.size, height: o.size, borderRadius: '50%', background: o.color, boxShadow: `0 0 ${o.size * 2}px ${o.color}`, top: -o.size / 2, left: `calc(50% - ${o.size / 2}px)` }}
             transition={{ duration: o.dur, delay: o.delay, repeat: Infinity, ease: 'linear' }}
-            style={{ position: 'absolute', width: o.size, height: o.size, borderRadius: '50%', background: o.color, boxShadow: `0 0 ${o.size * 2}px ${o.color}, 0 0 ${o.size * 4}px ${o.color}50`, top: -o.size / 2, left: `calc(50% - ${o.size / 2}px)`, originX: '50%', originY: `${o.r + o.size / 2}px` }}
           />
         </div>
       ))}
