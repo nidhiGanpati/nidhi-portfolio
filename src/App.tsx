@@ -202,7 +202,7 @@ function Hero() {
           Full-Stack Software Developer
         </motion.div>
         <motion.p className="hero-p" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.65, duration: 0.7, ease }}>
-          I build scalable full-stack applications, AI-powered tools, and data-driven platforms using React, Node.js, Java, Python, and cloud-ready architectures.
+          Full-stack developer and AI engineer. Expert Claude Code user shipping production AI-native platforms — LLM agents, scalable REST APIs, microservices, Docker/AWS deployments, and pixel-perfect React frontends. F-1 CPT authorized.
         </motion.p>
         <motion.div className="hero-btns" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.8, duration: 0.7, ease }}>
           <a href="#projects" className="btn btn-primary">Explore Projects</a>
@@ -280,7 +280,7 @@ function Experience() {
       <motion.div className="exp-card" variants={up} transition={{ delay: 0.15 }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: 12, marginBottom: 4 }}>
           <div><div className="exp-role">Software Development Intern</div><div className="exp-co">RMTS Global</div></div>
-          <div className="exp-badges"><span className="badge">Oct 2024 – Nov 2024</span><span className="badge">Bengaluru, India</span></div>
+          <div className="exp-badges"><span className="badge">Oct 2024 – Jun 2025</span><span className="badge">Bengaluru, India</span></div>
         </div>
         <ul className="exp-list">
           {['Designed responsive WordPress themes (HTML5/CSS3/JS); built custom PHP plugins with admin panels, shortcodes, custom post types, and REST API endpoints.',
