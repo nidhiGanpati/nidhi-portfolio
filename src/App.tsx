@@ -174,7 +174,7 @@ function Navbar() {
           <li key={href}><a href={href} onClick={() => setOpen(false)}>{label}</a></li>
         ))}
         <li><a href="https://github.com/nidhiGanpati" target="_blank" rel="noreferrer" className="nav-gh">GitHub</a></li>
-        <li><a href="https://drive.google.com/file/d/1eF3z3YzaIc8dGa4NeKxPhRZJtXMn1o15/view?usp=sharing" target="_blank" rel="noreferrer" className="nav-resume">Resume ↗</a></li>
+        <li><a href="https://drive.google.com/file/d/1XdAQQ7dLjcVseNpSv4yzFQmvnLYPJNGP/view?usp=sharing" target="_blank" rel="noreferrer" className="nav-resume">Resume ↗</a></li>
       </ul>
       <button className="nav-ham" onClick={() => setOpen(v => !v)} aria-label="menu">{open ? '✕' : '☰'}</button>
     </motion.nav>
